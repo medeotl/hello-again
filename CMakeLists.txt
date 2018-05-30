@@ -9,10 +9,10 @@ list (APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
 list (APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake/src)
 
 # where we install data directory (if we have any)
-set (DATADIR "${CMAKE_INSTALL_PREFIX}/share"}
+set (DATADIR "${CMAKE_INSTALL_PREFIX}/share"})
 
 # what to call that directory where we install data too
-set (PKGDATADIR "${DATADIR}/com.github.medeotl.hello-again"}
+set (PKGDATADIR "${DATADIR}/com.github.medeotl.hello-again"})
 
 set (EXEC_NAME "com.github.medeotl.hello-again")
 set (RELEASE_NAME "A hello world.")
@@ -57,29 +57,3 @@ install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/com.github.medeotl.hello-again.d
 
 # install our .appdata.xml file so AppCenter will see it
 install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/com.github.medeotl.hello-again.appdata.xml DESTINATION ${DATADIR}/metainfo/)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
