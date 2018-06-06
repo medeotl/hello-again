@@ -9,7 +9,7 @@ list (APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
 list (APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake/src)
 
 # where we install data directory (if we have any)
-set (DATADIR "${CMAKE_INSTALL_PREFIX}/share"})
+set (DATADIR "${CMAKE_INSTALL_PREFIX}/share")
 
 # what to call that directory where we install data too
 set (PKGDATADIR "${DATADIR}/com.github.medeotl.hello-again"})
@@ -53,7 +53,7 @@ add_executable(${EXEC_NAME} ${VALA_C})
 install (TARGETS ${EXEC_NAME} RUNTIME DESTINATION bin)
 
 # install our .desktop file so the Application Menu will see it
-install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/com.github.medeotl.hello-again.desktop DESTINATION ${DATA_DIR}/applications/)
+install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/com.github.medeotl.hello-again.desktop DESTINATION ${DATADIR}/applications/)
 
 # install our .appdata.xml file so AppCenter will see it
 install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/com.github.medeotl.hello-again.appdata.xml DESTINATION ${DATADIR}/metainfo/)
