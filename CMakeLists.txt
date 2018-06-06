@@ -12,7 +12,7 @@ list (APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake/src)
 set (DATADIR "${CMAKE_INSTALL_PREFIX}/share")
 
 # what to call that directory where we install data too
-set (PKGDATADIR "${DATADIR}/com.github.medeotl.hello-again"})
+set (PKGDATADIR "${DATADIR}/com.github.medeotl.hello-again")
 
 set (EXEC_NAME "com.github.medeotl.hello-again")
 set (RELEASE_NAME "A hello world.")
