@@ -29,6 +29,11 @@ add_definitions(${DEPS_CFLAGS})
 link_libraries(${DEPS_LIBRARIES})
 link_directories(${DEPS_LIBRARY_DIRS})
 
+# Translation files
+set (GETTEXT_PACKAGE "${CMAKE_PROJECT_NAME}")
+add_definitions (-DGETTEXT_PACKAGE=\"${GETTEXT_PACKAGE}\")
+add_subdirectory (po)
+
 # make sure we have vala
 find_package(Vala REQUIRED)
 # make sure we use vala
