@@ -24,7 +24,7 @@ public class MyApp : Gtk.Application {
     
     public MyApp () {
         Object (
-            application_id: "com.github.medeotl.gtk-hello",
+            application_id: "com.github.medeotl.hello-again",
             flags: ApplicationFlags.FLAGS_NONE
         );
     }
