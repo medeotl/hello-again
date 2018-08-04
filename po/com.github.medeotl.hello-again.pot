@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the com.github.medeotl.hello-again package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: com.github.medeotl.hello-again\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-06 16:10+0200\n"
+"POT-Creation-Date: 2018-08-04 18:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,18 +17,46 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../src/hello-again.vala:36
-msgid "Hello World"
+#: src/Application.vala:36
+msgid "Hello Again World"
 msgstr ""
 
-#: ../src/hello-again.vala:38
+#: src/Application.vala:38
 msgid "Hello Again World!"
 msgstr ""
 
-#: ../src/grid.vala:40
-msgid "Label 1"
+#: data/com.github.medeotl.hello-again.desktop.in:3
+msgid "Hello Again"
 msgstr ""
 
-#: ../src/grid.vala:41
-msgid "Label 2"
+#: data/com.github.medeotl.hello-again.desktop.in:4
+msgid "Hello World App"
+msgstr ""
+
+#: data/com.github.medeotl.hello-again.desktop.in:5
+msgid "Proves that we can use Vala and Gtk"
+msgstr ""
+
+#: data/com.github.medeotl.hello-again.desktop.in:8
+msgid "application-default-icon"
+msgstr ""
+
+#: data/com.github.medeotl.hello-again.appdata.xml.in:6
+msgid "hello-again"
+msgstr ""
+
+#: data/com.github.medeotl.hello-again.appdata.xml.in:7
+msgid "A brend new Gtk hello world"
+msgstr ""
+
+#: data/com.github.medeotl.hello-again.appdata.xml.in:9
+msgid "Visualizza una finestra hello world!"
+msgstr ""
+
+#: data/com.github.medeotl.hello-again.appdata.xml.in:10
+msgid "E lo fa in Gtk!!!"
+msgstr ""
+
+#: data/com.github.medeotl.hello-again.appdata.xml.in:11
+msgid "Ci crederesti?"
 msgstr ""
